@@ -7,7 +7,7 @@
     ],
     "description": "Integration Testing for Indie{Cert|Auth}",
     "license": "AGPL-3.0",
-    "name": "fkooman/indiecert-integration",
+    "name": "fkooman/indiecert-integration-testing",
     "require": {
         "guzzlehttp/guzzle": "~4.0"
     }
