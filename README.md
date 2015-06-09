@@ -17,9 +17,9 @@ for example place this on `https://localhost/`.
 
 Now you configure the instance of IndieCert you want to test:
 
-    $i = new IndieCertTest('https://indiecert.example.org', 'https://localhost/');
+    $i = new IndieCertTest('https://indiecert.example', 'https://localhost/');
 
-Here you indicate you want to test `https://indiecert.example.org` with the
+Here you indicate you want to test `https://indiecert.example` with the
 home page `https://localhost/`.
 
 Now run the script. If all is well you should only see `DONE` on the screen:
@@ -36,7 +36,7 @@ You can obtain this by logging in to your IndieCert instance and generating a
 credential on the `/account` page.
 
     $i = new IndieCertTest(
-        'https://indiecert.example.org',
+        'https://indiecert.example',
         'https://localhost/',
         '419d8105c2b318fa9943bb46c9f3ceac',
         'post'
