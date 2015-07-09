@@ -176,7 +176,7 @@ class IndieCertTest
 
 // <link rel="me" href="ni:///sha-256;PyZcDB-vGYhFswBBa1kT7wHyctDFKvdvYLrcKTftVg8?ct=application/x-x509-user-cert">
 try {
-    $i = new IndieCertTest('https://indiecert.example', 'https://fkooman.ursa.uberspace.de/', '86ee5794b04ba40938288c26a53616df', 'post');
+    $i = new IndieCertTest('https://indiecert.example', 'https://fkooman.ursa.uberspace.de/', '09efe20301e8d43c83c30f60f5b7222e', 'post');
     $i->runAuthorization();
 } catch (Exception $e) {
     echo $e->getMessage();
